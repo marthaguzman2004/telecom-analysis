@@ -1,13 +1,18 @@
 # telecom-analysis
 
+
 ## El objetivo de la empresa es identificar patrones de uso, detectar comportamientos atípicos y comprender qué segmentos de clientes muestran necesidades diferenciadas, con el fin de optimizar la oferta comercial y mejorar la experiencia del usuario.
 
+
 ## Datasets utilizados.
+
 ## plans.csv: los planes actuales (precio, minutos incluidos, GB incluidos, costo por extra).
 ## users_latam.csv: información de clientes: edad, ciudad, fecha de registro, plan contratado.
 ## usage.csv: el detalle de uso real: llamadas (duración) y mensajes (longitud).
 
+
 ## Etapas del análisis realizadas.
+
 ## 1. Cargar y explorar. 
 ## 2. Identificación de problemas de calidad. 
 ## 3. Limpieza básica. 
@@ -17,9 +22,18 @@
 ## 7. Insight ejecutivo. 
 ## 8. Publicación.
 
-## - cómo ejecutar el notebook (por ejemplo, abrirlo en Google Colab)
-## 1. Entrar al repositorio en GitHub y abrir el archivo .ipynb.
-## 2. Hacer clic en el botón "Open in Colab" (si lo agregaste) o copiar la URL del notebook en GitHub y pegarla en Colab (Archivo → Abrir notebook → pestaña GitHub).
-## 3. Una vez abierto en Colab, ejecutar las celdas en orden.
 
-## - una breve guía de reproducción.
+## Cómo ejecutar el notebook.
+
+## - Entra a GitHub y busca el archivo con extensión S7 Version-Estudiante-Project-ConnectaTel.ipynb
+## - Copia la URL del repositorio o del archivo desde la barra de direcciones del navegador.
+## - Cambia la palabra github.com por colab.research.google.com/github en la barra de direcciones.
+## - Presiona Enter y se abrirá el cuaderno en Google Colab listo para conectarse a un entorno de ejecución.
+
+
+## Guía de reproducción.
+
+
+## - Los archivos de datos necesarios plans.csv, users_latam.csv, usage.csv
+## - El archivo .ipynb del notebook
+## - Las librerías necesarias pandas, matplotlib y seaborn
